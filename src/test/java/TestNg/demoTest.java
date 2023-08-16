@@ -3,7 +3,7 @@ package TestNg;
 import org.testng.annotations.Test;
 
 
-public class demo {
+public class demoTest {
 	@Test(invocationCount = 2)
 	public void createContact()
 	{
