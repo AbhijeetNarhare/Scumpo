@@ -141,7 +141,7 @@ public class WebElementsExs {
 	driver.findElement(By.id("loginButton")).click();
 	Thread.sleep(1000);
 	WebElement tasklink = driver.findElement(By.cssSelector("a.reports"));
-	System.out.println(tasklink.getAccessibleName());
+	System.out.println(tasklink.getText());
 
 	}
 

@@ -143,13 +143,15 @@ username.clear();*/
 	System.out.println(data.getDomAttribute("class"));*/
 	
 	WebElement dat = driver.findElement(By.id("username"));
-	System.out.println(dat.getAccessibleName());
+	System.out.println(dat.getText());
+	
+	
 	
 	WebElement attribute = driver.findElement(By.name("pwd"));
-	System.out.println(attribute.getAccessibleName());
+	System.out.println(attribute.getText());
 	
 	WebElement data1 = driver.findElement(By.id("loginButton"));
-	System.out.println(data1.getAccessibleName());
+	System.out.println(data1.getText());
 	}
 }
 
